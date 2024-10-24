@@ -1,0 +1,94 @@
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    input[type="text"], button {
+        width: 95%; /* Make input and button take more width on small screens */
+    }
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9d1717; /* Light background for the entire page */
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #34495e; /* Darker shade for headings */
+    font-family: 'Helvetica Neue', sans-serif; /* Modern font for headings */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto; /* Added top margin for spacing */
+    padding: 20px;
+    background: #ffffff; /* White background for the container */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    border-radius: 8px;
+    border: 1px solid #dcdcdc; /* Light border for the container */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 12px; /* Increased padding for better touch target */
+    margin: 10px 0;
+    border: 1px solid #3498db; /* Blue border for input */
+    border-radius: 4px;
+    width: 80%;
+    font-size: 16px; /* Increased font size */
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db; /* Blue background for button */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.section {
+    padding: 20px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold; /* Bold subtitles */
+}
+
+.button.is-link {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #2ecc71; /* Green background for link button */
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button.is-link:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+/* Adding some additional styling for better aesthetics */
+p {
+    font-size: 18px; /* Slightly larger font for paragraph */
+    line-height: 1.5; /* Increased line height for readability */
+    text-align: center; /* Centering paragraph text */
+}
